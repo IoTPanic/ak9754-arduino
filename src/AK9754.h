@@ -1,11 +1,7 @@
 #ifndef AK9754_D
 #define AK9754_D
 
-#if (ARDUINO >= 100)
 #include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
 
 #include <Wire.h>
 
